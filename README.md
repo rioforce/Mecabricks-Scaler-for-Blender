@@ -11,7 +11,7 @@ Because of this, I've created this plugin to automatically shrink all imported M
 
 ## Installing
 
-First, download the plugin from [Releases](https://github.com/rioforce/Mecabricks-Scaler-for-Blender-/releases). Then, in Blender, open Edit > Preferences > Add-ons. Click "Install," and browse for the .zip file you just downloaded.
+First, download the plugin from [Releases](https://github.com/rioforce/Mecabricks-Scaler-for-Blender/releases/). Then, in Blender, open Edit > Preferences > Add-ons. Click "Install," and browse for the .zip file you just downloaded.
 
 Search for the plugin in the add-ons list, and hit the check mark to activate it.
 
