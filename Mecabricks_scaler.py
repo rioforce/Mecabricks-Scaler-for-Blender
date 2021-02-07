@@ -5,7 +5,7 @@ bl_info = {
     "version": (1, 0, 0),
     "blender": (2, 80, 0),
     "location": "World Properties",
-    "wiki_url": "www.github.com/rioforce/Mecabricks_Scaler",
+    "wiki_url": "https://github.com/rioforce/Mecabricks-Scaler-for-Blender/blob/main/README.md",
     "category": "Object",
 }
 
