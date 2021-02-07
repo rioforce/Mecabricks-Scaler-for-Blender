@@ -39,3 +39,4 @@ One day, I'd like to add the following features. But that may never happen, so f
 - Select only empties that are associated with a brick that's associated with a material that begins with `mb:o:` (basically, select only Mecabricks empties)
 - Make scaling of mateirals only affect selected bricks instead of all bricks (which would correspond to above)
 - Add fancy "Import Mecabricks" button to menu where it automatically scales on import.
+- Add a box for users to punch in what they want the scale to be instead of always defaulting to 0.1
