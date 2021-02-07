@@ -2,7 +2,7 @@ bl_info = {
     "name": "Mecabricks Scaler",
     "description": "Scales Mecabricks models to 0.1",
     "author": "rioforce",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (2, 80, 0),
     "location": "World Properties",
     "wiki_url": "https://github.com/rioforce/Mecabricks-Scaler-for-Blender/blob/main/README.md",
@@ -37,7 +37,8 @@ class MB_SCALER(bpy.types.Operator):
         #Revert scale on selection
         bpy.ops.object.scale_clear(clear_delta=False)
         #Scale selection to 0.1
-        bpy.ops.transform.resize(value=(0.1, 0.1, 0.1), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
+        for obj in bpy.context.selected_objects :
+            obj.scale *= 0.1
 
         #Scale materials to 0.1
 
