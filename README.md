@@ -2,6 +2,8 @@
 
 Blender plugin to scale Mecabricks files to a more managable size for use in Blender.
 
+**NOTE:** This plugin is in no way associated with Mecabricks, and is only for convenience by the end user.
+
 ### What's the issue?
 Mecabricks files, when imported into Blender without the provided template file, are giant. They cause major issues for people wishing to use them alongside other 3D models, and present issues with scaling of camera, lights, Depth of Field, and physics.
 
